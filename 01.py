@@ -10,6 +10,7 @@ csak az első betű nagy (személyes üdvözlésnél).
 
 """
 txt = input("enter your username to get it in all lowercase, first charachter uppercase and all uppercase\n")
-print(txt.casefold())
-print(txt.capitalize())
-print(txt.upper())
+print(f"lowercase: {txt.casefold()}")
+print(f"First letter uppercase: {txt.capitalize()}")
+print(f"uppercase: {txt.upper()}")
+
